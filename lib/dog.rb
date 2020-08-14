@@ -13,7 +13,7 @@ class Dog
     @name
   end 
   
-  def initialize(name, breed)
+  def initialize(name, breed = "Mutt")
     if breed.none?
       puts "#{name}, Mutt"
   else 
